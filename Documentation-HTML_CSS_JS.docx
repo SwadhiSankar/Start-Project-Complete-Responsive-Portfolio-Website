@@ -1,0 +1,22 @@
+header -> defining the header section used to integrate navigation 
+eg:
+<header>
+<nav>
+</nav> we can multiple navigation option
+</header>
+
+**
+
+z-index -> to display the content in the stack(order)
+
+section-> generic content(section)
+
+/Sticky navbar 
+ let header = document.querySelector("header");
+
+  header.classList.toggle("sticky", window.scrollY > 100);
+
+  queryselector will select the header DOM element and it will return the list of header dom and sticky is the css name 
+  so if there is no header then sticky will be removed and returned nothing 
+  window.scrolly -> to fix the nav bar without scrolling 
+  
